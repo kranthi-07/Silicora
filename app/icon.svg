@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="silicoraIconGrad" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FF7A59" />
+      <stop offset="50%" stopColor="#F06543" />
+      <stop offset="100%" stopColor="#C93B2B" />
+    </linearGradient>
+    <linearGradient id="siliconFacetBg" x1="14" y1="14" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#241620" />
+      <stop offset="100%" stopColor="#0E0C12" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Rounded Protective Disc for Chrome Tab Contrast -->
+  <rect width="48" height="48" rx="12" fill="#0A090D" />
+
+  <!-- Outer Rounded Hexagonal Crystal Die Frame -->
+  <path
+    d="M24 4 L41 13.8 V33.2 L24 43 L7 33.2 V13.8 Z"
+    stroke="url(#silicoraIconGrad)"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+    fill="url(#siliconFacetBg)"
+  />
+
+  <!-- Three Internal Planar Diffusion Leadlines -->
+  <line x1="24" y1="4" x2="24" y2="19" stroke="#FF7A59" stroke-width="1.8" stroke-opacity="0.85" />
+  <line x1="41" y1="33.2" x2="29" y2="26.5" stroke="#FF7A59" stroke-width="1.8" stroke-opacity="0.85" />
+  <line x1="7" y1="33.2" x2="19" y2="26.5" stroke="#FF7A59" stroke-width="1.8" stroke-opacity="0.85" />
+
+  <!-- Central Active Semiconductor Die (Rhombus/Diamond) -->
+  <polygon
+    points="24,19 29.5,24.5 24,30 18.5,24.5"
+    fill="url(#silicoraIconGrad)"
+  />
+
+  <!-- Core Quantum Emitter Point -->
+  <circle cx="24" cy="24.5" r="2.4" fill="#FFF9C4" />
+
+  <!-- Orbital Electron Satellite Beads -->
+  <circle cx="24" cy="10" r="1.8" fill="#FFB74D" />
+  <circle cx="33.5" cy="28.5" r="1.8" fill="#FF7A59" />
+  <circle cx="14.5" cy="28.5" r="1.8" fill="#FF7A59" />
+
+  <!-- Corner Bond Pads -->
+  <circle cx="24" cy="4" r="1.3" fill="#FFE082" />
+  <circle cx="41" cy="13.8" r="1.3" fill="#FF7A59" />
+  <circle cx="41" cy="33.2" r="1.3" fill="#FF7A59" />
+  <circle cx="24" cy="43" r="1.3" fill="#FF7A59" />
+  <circle cx="7" cy="33.2" r="1.3" fill="#FF7A59" />
+  <circle cx="7" cy="13.8" r="1.3" fill="#FF7A59" />
+</svg>
